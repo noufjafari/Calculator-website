@@ -1,0 +1,553 @@
+@media only screen and (min-width: 992px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        background-color: rgb(59,70,100);
+    
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       height: 90vh;
+       width: 50vw;
+       margin-top: 10%;
+       margin-bottom: 10%;
+    
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-around;
+        height: 9vh;
+        width: 40vw;
+        color: white;
+        font-weight: bold;
+    }
+    .headertext{
+        display: flex;
+        flex-direction: row;  
+    }
+    .textTheme{
+        margin-top: 40%;
+        margin-right: 30%;
+        font-size: 10px;
+    
+    }
+    
+    .ptext {
+        font-size: 10px;
+        color: white;
+    
+    }
+    
+    .Screen1{
+        margin: 10px;
+        display: flex;
+        text-align: right;
+        height: 13vh;
+        width: 40vw;
+        border: 1px solid  rgb(32, 29, 34);
+        border-radius: 10px;
+        background-color: #181F32;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px;
+        height: 60vh;
+        width: 40vw;
+        border: 1px solid rgb(32, 29, 34);
+        border-radius: 10px;
+        background-color:rgb(37,45,66);
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .button7 ,.button9,.button8,.button0,.button1,
+    .button2,.button3,.button4,.button5,.button6,
+    .buttonadd,.buttonDIVI,.buttondot,.buttonSUP,.buttonMULTI{
+        border: 0.3px solid #EAE3DB;
+        font-size: 20px;
+        font-weight:bolder ;
+        border-radius: 10px;
+        color: rgb(69,69,85);
+        background-color:#EAE3DB;
+        height: 70%;
+        align-items: center;
+    }
+    .button7:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button7{
+          grid-column: 1/2;
+           grid-row: 1/2; 
+    }.button8:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button8{
+        grid-column: 2/3;
+        grid-row: 1/2; 
+        
+    }.button9:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button9{
+        grid-column: 3/4;
+        grid-row: 1/2; 
+    }
+    
+    .buttonDEL:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        }
+    .buttonDEL{
+        grid-column: 4/5;
+        grid-row: 1/2;
+        border: 0.3px solid rgb(100,114,153);
+        border-radius: 10px;
+        background-color:rgb(100,114,153);
+        font-size: 20px;
+        font-weight:bolder ;
+        color: white;
+        height: 70%;
+        align-items: center;
+    
+    }
+    .button4:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button4{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .button5:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button5{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .button6:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button6{
+        grid-column: 3/4;
+        grid-row: 2/3;;
+    }
+    .buttonadd:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonadd{
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .button1:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button1{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }.button2:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    
+    .button2{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    
+    }.button3:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button3{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    
+    }.buttonSUP:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonSUP{
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }.buttondot:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttondot{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    
+    }.button0:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button0{
+        grid-column: 2/3;
+        grid-row: 4/5;
+    
+    }.buttonDIVI:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonDIVI{
+        grid-column: 3/4;
+        grid-row: 4/5;
+    
+    }.buttonMULTI:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonMULTI{
+        grid-column: 4/5;
+        grid-row: 4/5;
+    
+    }
+    .buttonRESET:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        }
+    
+    .buttonRESET{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        border: 0.3px solid rgb(100,114,153);
+        border-radius: 10px;
+        background-color:rgb(100,114,153);
+        font-size: 20px;
+        font-weight:bolder ;
+        color: white;
+        height: 70%;
+        align-items: center;
+    }.buttonEQUL:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        }
+    .buttonEQUL{
+        grid-column: 3/5;
+        grid-row: 5/6;
+        border: 0.3px solid rgb(209,63,48);
+        border-radius: 10px;
+        background-color:rgb(209,63,48);
+        font-size: 20px;
+        font-weight:bolder ;
+        color: white;
+        height: 70%;
+        align-items: center;
+    
+    }
+    
+    
+    
+    }
+    }
+
+    @media only screen and (max-width: 600px)  {
+        body{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        background-color: rgb(59,70,100);
+    
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       height: 90vh;
+       width: 50vw;
+       margin-top: 10%;
+       margin-bottom: 10%;
+    
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-around;
+        height: 9vh;
+        width: 40vw;
+        color: white;
+        font-weight: bold;
+    }
+    .headertext{
+        display: flex;
+        flex-direction: row;  
+    }
+    .textTheme{
+        margin-top: 40%;
+        margin-right: 30%;
+        font-size: 10px;
+    
+    }
+    
+    .ptext {
+        font-size: 10px;
+        color: white;
+    
+    }
+    
+    .Screen1{
+        margin: 10px;
+        display: flex;
+        text-align: right;
+        height: 13vh;
+        width: 40vw;
+        border: 1px solid  rgb(32, 29, 34);
+        border-radius: 10px;
+        background-color: #181F32;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 10px;
+        height: 60vh;
+        width: 40vw;
+        border: 1px solid rgb(32, 29, 34);
+        border-radius: 10px;
+        background-color:rgb(37,45,66);
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .button7 ,.button9,.button8,.button0,.button1,
+    .button2,.button3,.button4,.button5,.button6,
+    .buttonadd,.buttonDIVI,.buttondot,.buttonSUP,.buttonMULTI{
+        border: 0.3px solid #EAE3DB;
+        font-size: 20px;
+        font-weight:bolder ;
+        border-radius: 10px;
+        color: rgb(69,69,85);
+        background-color:#EAE3DB;
+        height: 70%;
+        align-items: center;
+    }
+    .button7:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button7{
+          grid-column: 1/2;
+           grid-row: 1/2; 
+    }.button8:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button8{
+        grid-column: 2/3;
+        grid-row: 1/2; 
+        
+    }.button9:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button9{
+        grid-column: 3/4;
+        grid-row: 1/2; 
+    }
+    
+    .buttonDEL:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        }
+    .buttonDEL{
+        grid-column: 4/5;
+        grid-row: 1/2;
+        border: 0.3px solid rgb(100,114,153);
+        border-radius: 10px;
+        background-color:rgb(100,114,153);
+        font-size: 20px;
+        font-weight:bolder ;
+        color: white;
+        height: 70%;
+        align-items: center;
+    
+    }
+    .button4:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button4{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .button5:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button5{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .button6:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button6{
+        grid-column: 3/4;
+        grid-row: 2/3;;
+    }
+    .buttonadd:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonadd{
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .button1:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button1{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }.button2:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    
+    .button2{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    
+    }.button3:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button3{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    
+    }.buttonSUP:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonSUP{
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }.buttondot:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttondot{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    
+    }.button0:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .button0{
+        grid-column: 2/3;
+        grid-row: 4/5;
+    
+    }.buttonDIVI:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonDIVI{
+        grid-column: 3/4;
+        grid-row: 4/5;
+    
+    }.buttonMULTI:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        color: azure;
+        }
+    .buttonMULTI{
+        grid-column: 4/5;
+        grid-row: 4/5;
+    
+    }
+    .buttonRESET:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        }
+    
+    .buttonRESET{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        border: 0.3px solid rgb(100,114,153);
+        border-radius: 10px;
+        background-color:rgb(100,114,153);
+        font-size: 20px;
+        font-weight:bolder ;
+        color: white;
+        height: 70%;
+        align-items: center;
+    }.buttonEQUL:hover{
+        background-color: #181F32;
+        transition: 0.5s ease-in-out;
+        }
+    .buttonEQUL{
+        grid-column: 3/5;
+        grid-row: 5/6;
+        border: 0.3px solid rgb(209,63,48);
+        border-radius: 10px;
+        background-color:rgb(209,63,48);
+        font-size: 20px;
+        font-weight:bolder ;
+        color: white;
+        height: 70%;
+        align-items: center;
+    
+    }
+    
+    
+    
+    }
+    }

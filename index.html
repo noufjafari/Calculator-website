@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    
+<div class="container">
+    <div class="header">
+        <div class="calctext"><p>calc</p></div>
+        <div class="headertext">
+                <span class="textTheme">THEME</span>
+                <div class="icon.text">
+                    <p class="ptext">1 2 3</p>
+                    <span class="material-symbols-outlined fs-6 me-1 text-warning" style="color: rgb(231, 42, 42);">
+                        toggle_off</span>
+                </div>
+        </div>
+    </div>
+
+    <input type="text" name="Screen1" class="Screen1" placeholder="0">
+    
+    <div class="buttons">
+        <button class="button7" onclick ="input('7')">7</button>
+        <button class="button8" onclick ="input('8')">8</button>
+        <button class="button9" onclick ="input('9')">9</button>
+        <button class="buttonDEL" onclick="DEL()">DEL</button>
+        <button class="button4" onclick ="input('4')">4</button>
+        <button class="button5" onclick ="input('5')">5</button>
+        <button class="button6" onclick ="input('6')">6</button>
+        <button class="buttonadd" onclick ="input('+')">+</button>
+        <button class="button1" onclick ="input('1')">1</button>
+        <button class="button2" onclick ="input('2')">2</button>
+        <button class="button3" onclick ="input('3')">3</button>
+        <button class="buttonSUP"onclick ="input('-')">-</button>
+        <button class="buttondot" onclick ="input('.')">.</button>
+        <button class="button0" onclick ="input('0')">0</button>
+        <button class="buttonDIVI" onclick ="input('/')">/</button>
+        <button class="buttonMULTI" onclick ="input('x')">x</button>
+        <button class="buttonRESET" onclick="RESETAll()">RESET</button>
+        <button class="buttonEQUL" onclick="calculate()">=</button>
+    </div>
+
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
