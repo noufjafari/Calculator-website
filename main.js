@@ -1,8 +1,8 @@
 let Screen1 = document.querySelector('.Screen1');
  
 
- function input(x){
-    Screen1.value=Screen1.value+x;
+ function input(y){
+    Screen1.value=Screen1.value+y;
  }
 function RESETAll(){
     Screen1.value=' ';
